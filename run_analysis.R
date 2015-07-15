@@ -91,7 +91,7 @@ result <- group_by(dfmeanstd, subjectnum, activitylabel) %>% summarise_each(funs
 ####################
 # output to a csv file
 write.csv(result, file = "secondary.data.set.csv", row.names = FALSE)
-
+write.table(result, file = "secondary.data.set.txt", row.names = FALSE)
 
 
 
