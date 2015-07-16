@@ -1,8 +1,8 @@
 # Codebook
 
-This document contains information about the secondary.data.set.csv and secondary.data.set.txt files.
+This document contains information about the [./secondary.data.set.csv](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.csv) and [./secondary.data.set.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.txt) files.
 
-Labels were taken from ./UCI HAR Dataset/features.txt file.  An attempt was made to cleanup the Variable names by first by making lower case, removing non alpha numeric characters, converting spaces to underscores.
+Labels were taken from [./UCI HAR Dataset/features.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/UCI%20HAR%20Dataset/features.txt) file.  An attempt was made to cleanup the Variable names by first by making lower case, removing non alpha numeric characters, converting spaces to underscores.
 
 The subject number and activity were put in the first two collumns for easy reading.
 
@@ -12,7 +12,7 @@ All of the Mean and Standard deviation observations were extracted from the main
 ||Variable name |Description|
 |-------|---------|---------|
 |1|subjectnum|Subjects assigned number|
-|2|activitylabel|Activity related to the test|
+|2|activitylabel|Activity related to the test: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
 |3|1_tbodyaccmeanx|time body acceleration signal mean x axis|
 |4|2_tbodyaccmeany|time body acceleration signal mean y axis|
 |5|3_tbodyaccmeanz|time body acceleration signal mean z axis|
