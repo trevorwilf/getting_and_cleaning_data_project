@@ -82,7 +82,8 @@ rm(collumnname)
 ## create a new tidy data set
 ####################
 #extract out the activitylabel, subjectnum, mean and std columns
-dfmeanstd <- all[, grepl(pattern = "mean|std|activitylabel|subjectnum", names(all))]
+dfmeanstd <- all[, grepl(pattern = "mean[xyz]$|mean$|std[xyz]$|std$|activitylabel|subjectnum", names(all))]
+dfmeanstd <- dfmeanstd[, !grepl(pattern = "^[0-9]*_angle", names(dfmeanstd))]
 
 ####################
 # group by subject then activity, then calculate mean on each
