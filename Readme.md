@@ -10,6 +10,7 @@
 |[./secondary.data.set.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.txt)|Contains the secondary data set. Formatted as a text file.
 |[./secondary.data.set.csv](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.csv)|Contains the secondary data set. Formatted as a csv.
 |[./codebook.md](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/codebook.md)|Contains a table that shows the column names of the secondary data set.
+|[./cleanupcodebook.R](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/cleanupcodebook.R)|Used to create table in the codebook.
 |[./getdata-projectfiles-UCI HAR Dataset.zip](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/getdata-projectfiles-UCI%20HAR%20Dataset.zip)| Contains the raw data set zipped
 |[./UCI HAR Dataset/README.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/UCI%20HAR%20Dataset/README.txt)| Read me about the raw data set
 |[./UCI HAR Dataset/features_info.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/UCI%20HAR%20Dataset/features_info.txt)| Shows information about the variables used on the feature vector.
@@ -49,7 +50,7 @@ The second part of the script deals with creating the new data set based on the 
 1.	Extract out the relevant collumns as explained in goal list referenced below (goal 2)
 	1.	Extract out Subject information, Activity labels, and all collumns dealing with mean or standard deviation for each observation	
 2.	Group data frame by subject and activity
-3.	summarise the mean for each observation (both mean and standard deviation observatins)
+3.	summarise the mean for each observation (both mean and standard deviation observations)
 4.	write out put to a file
 
 

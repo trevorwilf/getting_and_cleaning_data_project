@@ -10,6 +10,7 @@ library(reshape2)
 
 ####################
 # set working directory
+# you will need to change this to match your enviroment
 setwd("C:\\github\\getting_and_cleaning_data_project")
 
 ####################

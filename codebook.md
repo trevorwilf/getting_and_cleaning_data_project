@@ -2,11 +2,12 @@
 
 This document contains information about the [./secondary.data.set.csv](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.csv) and [./secondary.data.set.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/secondary.data.set.txt) files.
 
-Labels were taken from [./UCI HAR Dataset/features.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/UCI%20HAR%20Dataset/features.txt) file.  An attempt was made to cleanup the Variable names by first by making lower case, removing non alpha numeric characters, converting spaces to underscores.
+Labels were taken from [./UCI HAR Dataset/features.txt](https://github.com/trevorwilf/getting_and_cleaning_data_project/blob/master/UCI%20HAR%20Dataset/features.txt) file.  An attempt was made to clean-up the Variable names by first by making lower case, removing non alpha numeric characters, converting spaces to underscores.
 
-The subject number and activity were put in the first two collumns for easy reading.
-
-All of the Mean and Standard deviation observations were extracted from the main data source (per the instructions from the class).
+## about this data set
+The subject number and activity were put in the first two columns for easy reading.
+All of the Mean and Standard deviation observations were extracted from the main data source (per the instructions from the class).  We ignored "angle" columns as they are made up of other observations and are not part of the raw observations.  
+This data set is the average of the variables for each test run by the subject.  The data collected from the raw data set was grouped by subject number and then by activity (test performed).
 
 |Column index|Variable name|Description|
 |-----|-----|-----|
